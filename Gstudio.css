@@ -1,0 +1,94 @@
+:root{
+    --theme-color2: rgb(15, 204, 157);
+    --theme-color1: rgb(21, 81, 192);
+    --theme-color3:rgb(99, 253, 168);
+
+}
+.background{
+    background-image: linear-gradient(120deg,var(--theme-color1),var(--theme-color2),var(--theme-color3),white);
+    height: 100%;
+    margin: 0;
+}
+.MainBar{
+    background-color: lightsteelblue;
+
+    height: 40px;
+    margin: 0px;
+    padding-left: 5px;
+    padding-right: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    
+    border: none;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex;
+    justify-content: flex-start;
+    gap: 1.3em;
+
+}
+.ButtonAligin{
+    display: flex;
+    
+    gap: 0.4em;
+    align-items: center ;
+}
+.ButtonAdjust1{
+    width: 150px;
+    height: 40px;
+    font-size: 24px;
+    font-family: Georgia;
+    text-align: center;
+    text-wrap: balance;
+    
+    border-style: solid;
+    border: 2px;
+    border-color: white;
+    cursor: pointer;
+    color: black;
+    background-color:lightsteelblue;
+}
+.ButtonAdjust1:hover {
+    background-color:rgb(155, 188, 233);
+    color: rgb(73, 72, 72);
+}
+
+
+/*                         */
+.Content{
+    background-color: aliceblue;
+
+    border:0px;
+    border-radius: 10px;
+
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 50px;
+
+    display:flex;
+    justify-content:flex-start ;
+    align-content: center;
+    align-items:baseline;
+    text-align:end;
+}
+.Content:hover{
+    background-color: rgb(128, 128, 128);
+}
+/*      Head to Top Page                   */
+.ToTop{
+    text-align: center;
+    background-color: white;
+    border: 0px;
+    border-radius: 100%;
+    font-size: 25px;
+    
+    cursor: pointer;
+}
+.ToTop:hover{
+    background-color: black;
+}
