@@ -7,12 +7,13 @@
 .background{
     background-image: linear-gradient(120deg,var(--theme-color1),var(--theme-color2),var(--theme-color3),white);
     height: 100%;
+    width: auto;
     margin: 0;
 }
 .MainBar{
     background-color: lightsteelblue;
 
-    height: 40px;
+    height: 55px;
     margin: 0px;
     padding-left: 5px;
     padding-right: 15px;
@@ -30,6 +31,17 @@
     gap: 1.3em;
 
 }
+.BottomBar{
+    background-image: linear-gradient(to bottom,black,rgb(85, 85, 85),black);
+
+    margin: 0px;
+    height: 450px;
+    border: none;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+}
+
 .ButtonAligin{
     display: flex;
     
@@ -38,8 +50,8 @@
 }
 .ButtonAdjust1{
     width: 150px;
-    height: 40px;
-    font-size: 24px;
+    height: 50px;
+    font-size: 26px;
     font-family: Georgia;
     text-align: center;
     text-wrap: balance;
@@ -83,12 +95,13 @@
 .ToTop{
     text-align: center;
     background-color: white;
-    border: 0px;
-    border-radius: 100%;
+
     font-size: 25px;
+    padding: 10px;
     
     cursor: pointer;
 }
 .ToTop:hover{
     background-color: black;
+    color: white;
 }
