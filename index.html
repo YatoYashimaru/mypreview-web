@@ -1,42 +1,83 @@
 <!DOCTYPE html>
 <html>
-    <title>ten studio</title>
-    <link rel="stylesheet" href="Gstudio.css">
+    <title>Sky Project</title>
+    <link rel="stylesheet" href="csslink/Gstudio.css">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0"> 
+    <head>
+        <style>
+            button {
+                width: 150px;
+                height: 40px;
+                font-size: 26px;
+                font-family: Georgia;
+                text-align: center;
+                text-wrap: balance;
+    
+                border-style: solid;
+                border: 2px;
+                border-radius: 12px;
+                border-color: white;
+                cursor: pointer;
+                color: black;
+                background-color:rgb(78, 134, 103);
+            }
+            button:hover {
+                background-color:rgb(108, 153, 128);
+                color: rgb(255, 255, 255);
+            }
+        </style>
+    </head>
+
     <body class="background"></body>
 
     <div class="MainBar">
-        <a></a>
-        <hr>
         <div class="ButtonAligin">
-            
-            <a href="OthersWeb/GamesPage.html"><button class="ButtonAdjust1">Games</button></a>
-            <a href="OthersWeb/Support.html"><button class="ButtonAdjust1">Support</button></a>
-            <a href="OthersWeb/Contact.html"><button class="ButtonAdjust1">Contact</button></a>
-            <a href="OthersWeb/Creator.html"><button class="ButtonAdjust1">Creator</button></a>
+            <a href="https://www.youtube.com/watch?v=iOwNpb5C2H4" target="_blank"><button>NEIN</button></a>
+        </div>
+        <hr style="opacity: 0;">
+        <div class="ButtonAligin">
+            <button onclick="window.location.href ='OthersWeb/GamesPage.html'">Games</button>
+            <button onclick="window.location.href ='OthersWeb/Support.html'">Support</button>
+            <button onclick="window.location.href ='OthersWeb/Contact.html'">Contact</button>
+            <button onclick="window.location.href ='OthersWeb/Creator.html'">Creator</button>
         </div>    
     </div>
+
+    <div style="display: flex;">
+        <iframe src="Topicpage.html"
+        width="15%" 
+        height="1200" 
+        style="margin-right: 2%;
+        margin-top: 1%;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;" ></iframe>
+
+        <iframe src="MainPageDisplayHolder/mainpage.html"
+        name="MainPageDisplay"
+        width="80%" 
+        height="1000" 
+        style="border-radius: 20px; 
+        margin-top: 4%; 
+        margin-bottom: 4%;"></iframe>
+
+        <iframe src="idk.html" 
+        width="10%" 
+        height="1200" 
+        style="margin-left:2%;
+        margin-top: 1%;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;"></iframe>
+    </div>
     
 
 
-
-    <div class="Content">
-        <img src="IMGsource/HITLER.jpg">
-    </div>
     
-    <div class="Content">
-        <img src="IMGsource/yo.jpg">
-    </div>
-    
-    <div class="Content">
-        <img src="IMGsource/Ly.png">
-    </div>
 
     <div style="display: flex; justify-content: end; margin-right: 1.6%; margin-bottom: 1.6%;">
         <a href="#"><button class="ToTop"> ^ </button></a>
     </div>
 
-    <div class="BottomBar">
-
-    </div>
+    <div class="BottomBar"></div>
+   
 </html>
